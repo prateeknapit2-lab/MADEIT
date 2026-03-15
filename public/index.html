@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaDE-iT | AI Story to 3D Video Platform</title>
+    <meta name="keywords" content="AI story generator, 3D video creator, cinematic animation, multilingual dubbing, AI image generation, MaDE-iT app, story to video platform" />
+    <meta name="author" content="MaDE-iT" />
+    <meta name="google-site-verification" content="google-site-verification-placeholder" />
+    <meta name="msvalidate.01" content="bing-verification-placeholder" />
+    <meta
+      name="description"
+      content="MaDE-iT converts your story, idea, or project into cinematic 3D videos with multilingual voices, captions, and fast AI image generation."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://madeit.example.com" />
+    <meta property="og:title" content="MaDE-iT - AI Story Studio" />
+    <meta
+      property="og:description"
+      content="Website has limited features. App unlocks full cinematic tools, advanced animation, and premium exports."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MaDE-iT" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MaDE-iT - AI Story Studio" />
+    <meta name="twitter:description" content="Create 3D cinematic videos and AI visuals from your stories." />
+    <meta property="og:url" content="https://madeit.example.com" />
+    <meta name="theme-color" content="#0b1020" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MADEIT123"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-MADEIT123');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "MaDE-iT",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web, iOS, Android",
+        "offers": [
+          { "@type": "Offer", "price": "0", "priceCurrency": "USD", "category": "Free tier" },
+          { "@type": "Offer", "price": "24.99", "priceCurrency": "USD", "category": "Monthly premium" }
+        ],
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://madeit.example.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "sameAs": [
+          "https://www.google.com/search?q=MaDE-iT",
+          "https://search.yahoo.com/search?p=MaDE-iT"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button id="toggleMode">Switch to App Mode Preview</button>
+      </nav>
+      <section class="hero">
+        <canvas id="bg3d" aria-label="Animated background"></canvas>
+        <div class="hero-copy">
+          <h1 class="logo-3d logo-doodle" aria-label="MaDE-iT">
+            <span class="logo-letter l1">M</span><span class="logo-letter l2">a</span><span class="logo-letter l3">D</span><span class="logo-letter l4">E</span><span class="logo-letter l5">-</span><span class="logo-letter l6">i</span><span class="logo-letter l7">T</span>
+          </h1>
+          <p>Turn your story into a cinematic 3D play.</p>
+          <p>Web gives limited features. App unlocks full AI studio access.</p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2>Story to 3D Video</h2>
+        <form id="storyForm">
+          <textarea id="storyInput" placeholder="Write your story, idea, or project..."></textarea>
+          <select id="language">
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="es">Spanish</option>
+            <option value="ar">Arabic</option>
+          </select>
+          <button type="submit">Generate Story Plan</button>
+        </form>
+        <pre id="storyOutput"></pre>
+      </section>
+
+      <section class="panel">
+        <h2>Fast AI Image Generation</h2>
+        <form id="imageForm">
+          <input id="imagePrompt" placeholder="Example: Futuristic village at sunset, cinematic" />
+          <button type="submit">Generate Image</button>
+        </form>
+        <img id="imageResult" alt="Generated visual" />
+        <p id="imageNote"></p>
+      </section>
+
+      <section class="panel plans">
+        <h2>Pricing & Monetization</h2>
+        <ul id="plansList"></ul>
+        <p>Payment gateway integration points: Stripe, Razorpay, PayPal, Apple Pay, Google Pay.</p>
+      </section>
+
+      <section class="panel tutorial-panel" id="tutorials">
+        <h2>Simple Tutorial Videos (All Options)</h2>
+        <div class="tutorial-grid">
+          <article class="tutorial-card bulge-on-scroll">
+            <h3>How to generate a Story Video</h3>
+            <video class="tutorial-video" muted loop playsinline controls preload="metadata" poster="https://dummyimage.com/640x360/11182f/ffffff&text=Story+Tutorial">
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+            </video>
+          </article>
+          <article class="tutorial-card bulge-on-scroll">
+            <h3>How to generate Images quickly</h3>
+            <video class="tutorial-video" muted loop playsinline controls preload="metadata" poster="https://dummyimage.com/640x360/11182f/ffffff&text=Image+Tutorial">
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm" />
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+            </video>
+          </article>
+          <article class="tutorial-card bulge-on-scroll">
+            <h3>How web mode and app mode differ</h3>
+            <video class="tutorial-video" muted loop playsinline controls preload="metadata" poster="https://dummyimage.com/640x360/11182f/ffffff&text=Mode+Tutorial">
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+            </video>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel ads">
+        <h2>Advertisement Zone (Minimal Space)</h2>
+        <div class="ad-slot">Google AdSense Ad Unit: <code>ca-pub-XXXXXXXXXXXXXXXX / MADEIT_HOME_TOP</code></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Install MaDE-iT App for full features on iOS and Android.</p>
+      <a href="#" aria-label="Download on App Store">App Store</a>
+      <a href="#" aria-label="Download on Google Play">Google Play</a>
+    </footer>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
