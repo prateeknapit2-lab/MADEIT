@@ -1,0 +1,17 @@
+{
+  "name": "madeit",
+  "version": "1.0.0",
+  "description": "MADEIT web prototype with limited web features and app-first full access.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0"
+  }
+}
