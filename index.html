@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MADEIT | Video Creator Idea Hub</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0f172a;
+        --panel: #111827;
+        --text: #f8fafc;
+        --muted: #cbd5e1;
+        --accent: #38bdf8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        min-height: 100vh;
+        background: radial-gradient(circle at top, #1e293b, var(--bg) 65%);
+        color: var(--text);
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      .card {
+        width: min(760px, 100%);
+        background: color-mix(in srgb, var(--panel) 90%, black);
+        border: 1px solid #334155;
+        border-radius: 20px;
+        padding: 32px;
+        box-shadow: 0 16px 40px rgb(0 0 0 / 0.35);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 6vw, 3rem);
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .pill {
+        display: inline-block;
+        padding: 8px 14px;
+        border-radius: 999px;
+        background: rgb(56 189 248 / 0.2);
+        color: var(--accent);
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+
+      ul {
+        margin: 22px 0 0;
+        padding-left: 20px;
+      }
+
+      li {
+        margin: 8px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <span class="pill">Website Preview</span>
+      <h1>Welcome to MADEIT</h1>
+      <p>
+        MADEIT is a website concept for video creators who need different ideas,
+        inspiration, and a place to plan their next content.
+      </p>
+      <ul>
+        <li>Discover creative video topic suggestions.</li>
+        <li>Organize and refine your next content plan.</li>
+        <li>Turn rough concepts into publishable ideas faster.</li>
+      </ul>
+    </main>
+  </body>
+</html>
